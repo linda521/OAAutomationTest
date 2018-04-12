@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Second suite" verbose="1" >
+<test name = "oaTest" >
+ <parameter  name="browser_name" value="firefox"/>
+   <classes>
+  		<class name="testcases.OpenBrowserTestCases" />
+  		<class name="testcases.LoginTest" />
+  		<!-- <class name="testcases.AfterRun" /> -->
+   </classes>
+</test>
+</suite>

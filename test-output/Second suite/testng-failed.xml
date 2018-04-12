@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Second suite]">
+  <test thread-count="5" name="oaTest(failed)">
+    <parameter name="browser_name" value="firefox"/>
+    <classes>
+      <class name="testcases.OpenBrowserTestCases">
+        <methods>
+          <include name="testOpenBrowser"/>
+        </methods>
+      </class> <!-- testcases.OpenBrowserTestCases -->
+    </classes>
+  </test> <!-- oaTest(failed) -->
+</suite> <!-- Failed suite [Second suite] -->
